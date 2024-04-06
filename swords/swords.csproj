@@ -4,7 +4,7 @@
     <ModName>Swrods</ModName>
     <ModType>code</ModType>
     <GameVersion>1.19.4</GameVersion>
-    <Version>0.0.3</Version>
+    <Version>0.0.1</Version>
     <ModId>maltiezswords</ModId>
     <Description>Reworks swords</Description>
     <Side>Universal</Side>
@@ -136,6 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="VSImGui_DebugTools" Version="0.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\assets\maltiezswords\shapes\vanilla\" />
   </ItemGroup>
 
   <!-- Startup settings -->

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "blade-falx-*": { "base": "item/tool/blade/falx/{metal}" },
+		  "blade-longsword-admin": { "base": "item/tool/blade/admin" },
+		  "blade-*-ruined": { "base": "item/tool/blade/ruined/{type}" },
+      "blade-blackguard-*": { "base": "maltiezswords:vanilla/sword-blackguard" },
+      "blade-forlorn-*": { "base": "maltiezswords:vanilla/sword-forlorn" },
+		  "*": { "base": "item/tool/blade/{type}" }
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "replace",
+    "path": "/tpHandTransformByType/blade-blackguard-iron",
+    "value": {
+      "translation": { "x": -1.25, "y": 0.05, "z": -0.76 },
+		  "rotation": { "x": -90, "y": 0, "z": 0 },
+		  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		  "scale": 0.6
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "replace",
+    "path": "/tpHandTransformByType/blade-forlorn-iron",
+    "value": {
+      "translation": { "x": -1.25, "y": 0.03, "z": -0.83 },
+		  "rotation": { "x": -90, "y": 0, "z": 0 },
+		  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		  "scale": 0.6
+    }
+  }
+]
