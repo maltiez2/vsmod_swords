@@ -20,12 +20,12 @@
   "damagedby": ["attacking"],
   "tool": "sword",
   "shapeByType": {
-    "*-copper": {"base": "swords/sword-leaf"},
-    "*-tinbronze": {"base": "swords/sword-gladius"},
-    "*-bismuthbronze": {"base": "swords/sword-gladius"},
-    "*-blackbronze": {"base": "swords/sword-gladius"},
-    "*-iron": {"base": "swords/sword-short"},
-    "*-steel": {"base": "swords/sword-arming"}
+    "*-copper": {"base": "swords/sword-leaf-{type}"},
+    "*-tinbronze": {"base": "swords/sword-gladius-{type}"},
+    "*-bismuthbronze": {"base": "swords/sword-gladius-{type}"},
+    "*-blackbronze": {"base": "swords/sword-gladius-{type}"},
+    "*-iron": {"base": "swords/sword-short-{type}"},
+    "*-steel": {"base": "swords/sword-arming-{type}"}
   },
   "heldTpIdleAnimation": "swordsempty",
   "heldRightReadyAnimation": "swordsempty",

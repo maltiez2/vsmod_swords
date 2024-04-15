@@ -20,11 +20,11 @@
   "damagedby": ["attacking"],
   "tool": "sword",
   "shapeByType": {
-    "*-tinbronze": {"base": "swords/sword-spata"},
-    "*-bismuthbronze": {"base": "swords/sword-spata"},
-    "*-blackbronze": {"base": "swords/sword-spata"},
-    "*-iron": {"base": "swords/sword-seax"},
-    "*-steel": {"base": "swords/sword-long"}
+    "*-tinbronze": {"base": "swords/sword-spatha-{type}"},
+    "*-bismuthbronze": {"base": "swords/sword-spatha-{type}"},
+    "*-blackbronze": {"base": "swords/sword-spatha-{type}"},
+    "*-iron": {"base": "swords/sword-seax-{type}"},
+    "*-steel": {"base": "swords/sword-long-{type}"}
   },
   "heldTpIdleAnimation": "swordsempty",
   "heldRightReadyAnimation": "swordsempty",

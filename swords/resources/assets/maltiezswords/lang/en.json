@@ -1,3 +1,20 @@
 {
-  "game:tabname-maltiezswords": "Swords"
+  "game:tabname-maltiezswords": "Swords",
+  "item-sword-great-plain-steel": "Great sword (steel)",
+  "item-sword-long-plain-steel": "Long sword (steel)",
+  "item-sword-short-plain-steel": "Arming sword (steel)",
+
+  "item-sword-long-plain-iron": "Long seax (iron)",
+  "item-sword-short-plain-iron": "Short sword (iron)",
+  "item-sword-long-plain-meteoriciron": "Long seax (meteoric iron)",
+  "item-sword-short-plain-meteoriciron": "Short sword (meteoric iron)",
+
+  "item-sword-long-plain-tinbronze": "Spatha (tinbronze)",
+  "item-sword-short-plain-tinbronze": "Gladius (tinbronze)",
+  "item-sword-long-plain-bismuthbronze": "Spatha (bismuthbronze)",
+  "item-sword-short-plain-bismuthbronze": "Gladius (bismuthbronze)",
+  "item-sword-long-plain-blackbronze": "Spatha (blackbronze)",
+  "item-sword-short-plain-blackbronze": "Gladius (blackbronze)",
+
+  "item-sword-short-plain-copper": "Leaf sword (copper)"
 }

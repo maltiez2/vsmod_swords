@@ -15,7 +15,7 @@
   "variantgroups": [{"code": "handling", "states": ["great"]}, {"code": "type", "states": ["plain"]}, {"code": "material", "states": ["steel"]}],
   "damagedby": ["attacking"],
   "tool": "sword",
-  "shapeByType": {"*-steel": {"base": "swords/sword-great"}},
+  "shapeByType": {"*-steel": {"base": "swords/sword-great-{type}"}},
   "heldTpIdleAnimation": "swordsempty",
   "heldRightReadyAnimation": "swordsempty",
   "heldTpHitAnimation": "swordsempty",
